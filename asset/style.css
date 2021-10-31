@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    transition: all 0.3s linear;
+}
+body.white{
+    background-color: #000;
+}
+body.white .btn{
+    background-color: #fff;
+    color: #000;
+}
+body.white .icon{
+    background: deepskyblue;
+}
+body.white .box-2{
+    border: 3px solid deepskyblue;
+}
+body.white .text{
+    border: 3px solid deepskyblue;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.box{
+    border: 2px solid #000;
+    min-height: 500px;
+    min-width: 800px;
+}
+.box-2{
+    margin-left: 10px;
+    min-width: 100px;
+    min-height: 500px;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-direction:column;
+    border: 2px solid #000;
+}
+.text{
+    border: 3px solid #000;
+    background-color: #fff;
+}
+.text.black{
+    color: #000;
+}
+.pen{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    border: 2px solid #000;
+}
+.pen .fa-minus-circle{
+    padding: 4px 0;
+}
+.pen .fa-pen{
+    padding: 4px 0;
+}
+.pen .fa-times-circle{
+    padding: 4px 0;
+
+}
+.icon{
+    font-size: 22px;
+    cursor: pointer;
+    padding: 10px;
+    
+}
+.btn{
+    background-color: #000;
+    color: #fff;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+.fas{
+
+}
+.fa-pen{
+
+}
+.fa-plus-circle{
+
+}
+.fa-minus-circle{
+
+}
+.fa-times-circle{
+
+}
+.fas.fa-pen{
+
+}
+.fas.fa-plus-circle{
+
+}
+.fas.fa-minus-circle{
+
+}
+.fas.fa-times-circle{
+
+}
